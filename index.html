@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ksense Js Demo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/js/index.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+        <!-- gallery -->
+        <h2>Posts by User</h2>
+        <div id = "posts-container" class = "posts-container">            
+            <script type="text/javascript">
+              //passing 0 as argument below will return all posts, but user can click table to filter as reqeusted
+              mapPostsIntoContainer(0) 
+            </script>
+        </div>  
+        <!-- create and populate table -->
+        <h2>All Users</h2>
+        <div id = "table-container" class = "table-container">
+        <script type = "text/javascript">
+            mapUsersIntoTable()
+        </script>
+        </div>          
+    </div>
+
+
+  </body>
+</html>

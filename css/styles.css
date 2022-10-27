@@ -1,0 +1,68 @@
+
+* {
+    font-family: "Poppins", sans-serif;
+    overflow: auto;
+  }
+
+  .main-container {
+    max-width: 90%;
+    margin: 0px auto;    
+    border-radius: 10px;
+    overflow: auto;
+    padding: 40px 20px;
+    background-color: whitesmoke;
+    color: rgb(2, 2, 2);
+    display: flex;
+    flex-direction: column;    
+  }
+
+/************************************************ TABLE STYLING  ************************************************/
+
+
+table, th, td {
+    border: 1px solid black;    
+    /* width: 100%; */
+}
+
+table{
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    
+    text-align: center;
+  }
+
+tr:hover{
+    cursor: pointer;
+}
+
+
+.table-container{
+overflow-x: auto;
+}
+
+/************************************************ POST STYLING  ************************************************/
+
+
+.posts-container{
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+
+.post-ele{
+    margin-top:5px;
+    margin-bottom:5px;    
+}
+
+.post-style{
+    border-bottom: 2px black solid;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
